@@ -1,0 +1,21 @@
+Circuit: Phase Shift Oscillator
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Mon Jul 02 16:02:52 2018
+Total elapsed time: 0.254 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 37743
+traniter = 37743
+tranpoints = 16259
+accept = 12041
+rejected = 4218
+matrix size = 32
+fillins = 36
+solver = Normal
+Matrix Compiler1: 3.37 KB object code size  0.8/0.4/[0.3]
+Matrix Compiler2: 3.37 KB object code size  0.4/0.5/[0.3]
+

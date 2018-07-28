@@ -1,0 +1,21 @@
+Circuit: Quadrature Oscillator
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Mon Jul 02 16:00:31 2018
+Total elapsed time: 0.075 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3490
+traniter = 3490
+tranpoints = 1200
+accept = 1107
+rejected = 93
+matrix size = 53
+fillins = 119
+solver = Normal
+Matrix Compiler1: 9.59 KB object code size  1.8/0.9/[0.5]
+Matrix Compiler2: 6.80 KB object code size  0.7/0.8/[0.5]
+

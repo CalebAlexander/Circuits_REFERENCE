@@ -1,0 +1,21 @@
+Circuit: Caleb Alexander
+
+.OP point found by inspection.
+
+Date: Sat Jun 09 12:32:41 2018
+Total elapsed time: 0.052 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2218
+traniter = 2218
+tranpoints = 1110
+accept = 1095
+rejected = 15
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1:       9 opcodes  0.1/[0.0]/0.0
+Matrix Compiler2: off  [0.0]/0.3/0.1
+

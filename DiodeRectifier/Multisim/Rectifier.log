@@ -1,0 +1,46 @@
+Circuit: ** Rectifier **
+
+Questionable use of curly braces in "bcm 4 3  v={v(cm)/{cmrr_lin}}"
+    Error: undefined symbol in: "[v](cm)/(cmrr_lin)"
+Questionable use of curly braces in "bis1a vref vs2a  i={{k_is2a}*(v(3)-v(in_n))}"
+    Error: undefined symbol in: "(k_is2a)*([v](3)-v(in_n))"
+Questionable use of curly braces in "bis2b vref vs2b  i={{k_is2b}*(v(vs2a)-v(vref))}"
+    Error: undefined symbol in: "(k_is2b)*([v](vs2a)-v(vref))"
+Questionable use of curly braces in "b_srp 8 vpos  i={i(vcp1sense)-({cp1}*{sr})}"
+    Error: undefined symbol in: "[i](vcp1sense)-((cp1)*(sr))"
+Questionable use of curly braces in "b_srn vneg 10  i={-1*i(vcp1sense)-({cp1}*{sr})}"
+    Error: undefined symbol in: "-1*[i](vcp1sense)-((cp1)*(sr))"
+Questionable use of curly braces in "bout vref out_  i={(v(vs2b)-v(vref))/{rout}}"
+    Error: undefined symbol in: "([v](vs2b)-v(vref))/(rout)"
+Questionable use of curly braces in "b_outp 15 vpos  i={i(voutsense)-{iomax}}"
+    Error: undefined symbol in: "[i](voutsense)-(iomax)"
+Questionable use of curly braces in "b_outn vneg 16  i={-1*i(voutsense)-{iomax}}"
+    Error: undefined symbol in: "-1*[i](voutsense)-(iomax)"
+Error on line 8 : vvin 5 0 dc 5 ac 0 0  distof1 0 0  distof2 0 0
+	 Unknown parameter "distof1"
+Error on line 67 : rr4 2 vss 5100 vresr4
+	 Unknown parameter "vresr4"
+Error on line 78 : rr3 vdd 3 5100 vresr3
+	 Unknown parameter "vresr3"
+Error on line 81 : rr2 4 vout 3000 vresr2
+	 Unknown parameter "vresr2"
+Error on line 84 : rr1 5 1 1000 vresr1
+	 Unknown parameter "vresr1"
+
+Date: Wed Jul 11 14:56:11 2018
+Total elapsed time: 0.072 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 2005
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 33
+fillins = 12
+solver = Normal
+Matrix Compiler1:     119 opcodes  0.6/[0.4]/14.8
+Matrix Compiler2: off  [0.4]/0.6/23.3
+

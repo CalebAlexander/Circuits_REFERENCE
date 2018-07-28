@@ -1,0 +1,50 @@
+Circuit: Caleb Alexander
+
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of V(8)
+DC component:3.67787e-005
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	7.257e+00	1.000e+00	  179.94°	    0.00°
+    2   	2.000e+03	1.318e-04	1.816e-05	 -103.27°	 -283.21°
+    3   	3.000e+03	2.966e-02	4.088e-03	  178.80°	   -1.14°
+    4   	4.000e+03	2.704e-04	3.726e-05	  -30.59°	 -210.53°
+    5   	5.000e+03	5.027e-03	6.927e-04	    2.36°	 -177.58°
+    6   	6.000e+03	4.161e-04	5.734e-05	   40.99°	 -138.95°
+    7   	7.000e+03	1.903e-03	2.623e-04	 -156.61°	 -336.55°
+    8   	8.000e+03	5.633e-04	7.761e-05	  109.92°	  -70.02°
+    9   	9.000e+03	6.406e-04	8.827e-05	 -101.03°	 -280.97°
+   10   	1.000e+04	6.906e-04	9.516e-05	  175.78°	   -4.15°
+   11   	1.100e+04	9.126e-04	1.258e-04	  126.28°	  -53.66°
+   12   	1.200e+04	7.673e-04	1.057e-04	 -121.28°	 -301.22°
+   13   	1.300e+04	1.586e-03	2.186e-04	   47.23°	 -132.71°
+   14   	1.400e+04	7.668e-04	1.057e-04	  -61.01°	 -240.95°
+   15   	1.500e+04	1.125e-03	1.550e-04	    4.00°	 -175.94°
+   16   	1.600e+04	6.796e-04	9.365e-05	   -3.28°	 -183.22°
+   17   	1.700e+04	6.338e-04	8.733e-05	  -97.88°	 -277.82°
+   18   	1.800e+04	5.207e-04	7.175e-05	   51.49°	 -128.45°
+   19   	1.900e+04	4.164e-04	5.738e-05	 -136.88°	 -316.82°
+   20   	2.000e+04	3.270e-04	4.506e-05	  101.15°	  -78.79°
+Total Harmonic Distortion: 0.417388%(0.417652%)
+
+
+
+Date: Wed Jul 18 16:50:20 2018
+Total elapsed time: 0.057 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2116
+traniter = 2098
+tranpoints = 1050
+accept = 1050
+rejected = 0
+matrix size = 32
+fillins = 34
+solver = Normal
+Matrix Compiler1: 3.09 KB object code size  0.6/0.4/[0.2]
+Matrix Compiler2: off  [0.3]/0.4/0.5
+

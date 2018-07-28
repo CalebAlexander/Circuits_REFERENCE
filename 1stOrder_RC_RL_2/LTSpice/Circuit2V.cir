@@ -1,0 +1,9 @@
+Caleb Alexander
+vi 1 0 PULSE(0 10 1p)
+R1 1 2 12k
+R2 2 3 15k
+R3 3 0 4.3k
+L1 2 3 3m
+.tran 1n 800n
+.print tran V(2) V(3) I(L1)
+.end

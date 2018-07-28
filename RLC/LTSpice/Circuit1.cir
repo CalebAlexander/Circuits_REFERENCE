@@ -1,0 +1,10 @@
+Caleb Alexander
+vi 1 0 ac 1
+R1 1 2 68k
+R2 2 0 33k
+R3 2 3 6.8k
+L1 3 4 3m
+C1 4 0 1p
+.ac dec 2000 1000000 10000000
+.probe
+.end
